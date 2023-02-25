@@ -13,6 +13,11 @@ These issues were solved by:
 
 In this project, I learned the importance of building accessible websites. I also learned why keeping the code clean and as concise as possible must be a priority. 
 
+![Screenshot](./Assets/page-screenshot.jpeg)
+
+Here is a screenshot of the page. 
+Click on this [link](https://evermuniz.github.io/module-1-challenge/) to visit the deployed page.
+
 ## Credits
 
 The original code was provided by the UofU coding bootcamp. 
