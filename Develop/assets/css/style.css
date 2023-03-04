@@ -21,7 +21,8 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*condensed selector to less text without impacting functionality*/
+.seo {
     color: #d9dcd6;
 }
 
