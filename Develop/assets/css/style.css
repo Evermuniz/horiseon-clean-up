@@ -34,9 +34,11 @@ body {
     font-size: 20px;
 }
 
-/* removed this section, not being used anywhere .header div ul { list-style-type: none; } */
+/* removed this selector since it was redundant. The .header div ul { list-style-type: none; } property is mentioned again below*/
 
-.header div ul li {
+
+/*condensed from .header div ul li to just li to condense the selector*/
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -86,24 +88,32 @@ p {
     background-color: #2589bd;
 }
 
-/* consolidated classes for elements under the benefits section */
+/* created a new class to condense the code. 
+The 3 boxes in the center of the page were using the same properties specified here but each had their individual class*/
 .benefits-elements{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*I created a new selector to condense the code. 
+The h3 elements in the .benefits-elements were using the same properties specified here but each had their individual selector*/
 .benefits-elements h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* created a new selector to condense the code. 
+The images in the .benefits-elements class were using the same properties specified here but each had their individual selector*/
 .benefits-elements img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*consolidated classes for elements under the content section */
+
+
+/*created a new class to condense the code. 
+The boxes on the right of the screens were all using the same properties specified here but each had their individual class */
   .content-elements {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,10 +123,16 @@ p {
     color: #ffffff;
 }
 
+
+/* created a new selector to condense the code. 
+The images in the .content-elements class were all using the same properties specified here but each had their individual selector*/
 .content-elements img {
     max-height: 200px;
 }
 
+
+/* created a new selector to condense the code.
+The h2 elements in the .content-elements class were all using the same properties specified here but each had their individual selectors*/
 .content-elements h2 {
     margin-bottom: 20px;
     font-size: 36px;

@@ -16,7 +16,7 @@ In this project, I learned the importance of building accessible websites. I als
 ## Mock-Up
 
 Below is a screenshot of the page. 
-Click on this [link](https://evermuniz.github.io/module-1-challenge/) to visit the deployed page.
+Click on this [link](https://evermuniz.github.io/horiseon-clean-up/) to visit the deployed page.
 
 ![Screenshot](./Assets/page-screenshot.jpeg)
 
