@@ -1,4 +1,4 @@
-# Bootcamp Module 1 Challenge
+# Horiseon Code Cleanup
 
 ## Description
 
